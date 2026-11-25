@@ -1,5 +1,9 @@
 # Historia zmian
 
+## DB-2026-001 — 1.0.0 (25 listopada 2026)
+
+Pierwsze polskie wydanie publikacji. Ustalono autorstwo, datę wydania, licencję dokumentacji CC BY 4.0 z wyłączeniem identyfikacji marki oraz zalecany zapis cytowania. Wydanie zawiera raport, 28 ustaleń, 17 IOC, cztery diagramy i bibliografię. Nie zmieniono wyników badania ani poziomów pewności.
+
 ## DB-2026-001 — 0.9.2 (25 listopada 2026)
 
 Dodano identyfikację wizualną DAYBREAK RESEARCH, trzy warianty znaku i banera SVG, cztery diagramy wyników oraz indeks ilustracji. Zaktualizowano README i osadzono diagramy w raporcie, bez zmiany wartości dowodowych i wskaźników.

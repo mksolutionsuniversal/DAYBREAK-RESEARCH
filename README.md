@@ -14,7 +14,7 @@ Projekt badawczy MK Universal Solutions Ltd, poświęcony analizie złośliwego 
 | --- | --- | --- |
 | DB-2026-001 | [ClickFix na macOS: zbieranie danych zaczyna się przed podaniem hasła](publications/DB-2026-001/README.md) | PL |
 
-**DB-2026-001** · wersja do recenzji 0.9.2 · kryptonim DAYBREAK BLUE
+**DB-2026-001** · wydanie 1.0.0 · 25 listopada 2026 · kryptonim DAYBREAK BLUE
 
 [Raport techniczny](publications/DB-2026-001/pl/report.md) · [Matryca dowodowa](publications/DB-2026-001/evidence/README.md) · [IOC](publications/DB-2026-001/indicators/README.md) · [Diagramy](publications/DB-2026-001/figures/README.md)
 
@@ -26,4 +26,4 @@ Repozytorium zawiera materiały defensywne, nie próbki wykonywalne, poświadcze
 
 Wydawca: **MK Universal Solutions Ltd** · [mkus.co.uk](https://mkus.co.uk)
 
-Informacje o prawach do materiałów: [NOTICE.md](NOTICE.md).
+Dokumentacja badawcza: [CC BY 4.0](LICENSE). Zakres licencji, oznaczenia i cytowanie: [NOTICE.md](NOTICE.md).

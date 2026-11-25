@@ -1,9 +1,11 @@
 # ClickFix na macOS: zbieranie danych zaczyna się przed podaniem hasła
 
 **DAYBREAK RESEARCH · DB-2026-001 · kryptonim DAYBREAK BLUE**  
+**Autor:** Michał Kurzdym  
 **Wydawca:** MK Universal Solutions Ltd  
 **Badanie:** 18–21 listopada 2026 · wszystkie czasy UTC  
-**Wersja:** 0.9.2 — do recenzji publikacyjnej
+**Wydanie:** 1.0.0 · 25 listopada 2026  
+**Licencja dokumentacji:** [CC BY 4.0](../../../LICENSE)
 
 [Matryca ustaleń](../evidence/README.md) · [IOC](../indicators/README.md) · [Bibliografia](references.md) · [Metodyka](../../../methodology/evidence-standard.md)
 
