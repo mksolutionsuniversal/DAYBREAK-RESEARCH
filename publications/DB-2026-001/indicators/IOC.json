@@ -1,6 +1,6 @@
 {
   "report": "DB-2026-001",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "note": "Wskaźniki historyczne i defangowane. Okno badawcze nie oznacza first_seen/last_seen. Status dotyczy opisanej roli lub obserwacji, nie atrybucji.",
   "indicators": [
     {

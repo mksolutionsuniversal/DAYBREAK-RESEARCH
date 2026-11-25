@@ -8,10 +8,12 @@ Analiza statyczna, dynamiczna i informatyka śledcza wieloetapowego infostealera
 **Wydawca:** MK Universal Solutions Ltd  
 **Okres badania:** 18–21 listopada 2026; porównanie z incydentem 9 listopada  
 **Język:** polski  
-**Status:** wersja do recenzji publikacyjnej (0.9.0)
+**Status:** wersja do recenzji publikacyjnej (0.9.1)
 
 - [Raport techniczny](pl/report.md)
 - [Matryca ustaleń i indeks źródeł](evidence/README.md)
+- [Bibliografia i mapowanie źródeł](pl/references.md)
+- [Opis wskaźników](indicators/README.md)
 - [Wskaźniki defensywne CSV](indicators/IOC.csv)
 - [Wskaźniki defensywne JSON](indicators/IOC.json)
 
