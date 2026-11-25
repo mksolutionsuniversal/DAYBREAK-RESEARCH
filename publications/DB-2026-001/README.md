@@ -15,6 +15,7 @@ Analiza statyczna, dynamiczna i informatyka śledcza wieloetapowego infostealera
 **Licencja dokumentacji:** [CC BY 4.0](../../LICENSE)
 
 - [Diagramy wyników](figures/README.md)
+- [English edition — translation draft](en/README.md)
 - [Raport techniczny](pl/report.md)
 - [Matryca ustaleń i indeks źródeł](evidence/README.md)
 - [Bibliografia i mapowanie źródeł](pl/references.md)
