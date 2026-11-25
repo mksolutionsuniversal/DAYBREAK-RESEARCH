@@ -3,7 +3,7 @@
 **DAYBREAK RESEARCH · DB-2026-001 · kryptonim DAYBREAK BLUE**  
 **Wydawca:** MK Universal Solutions Ltd  
 **Badanie:** 18–21 listopada 2026 · wszystkie czasy UTC  
-**Wersja:** 0.9.1 — do recenzji publikacyjnej
+**Wersja:** 0.9.2 — do recenzji publikacyjnej
 
 [Matryca ustaleń](../evidence/README.md) · [IOC](../indicators/README.md) · [Bibliografia](references.md) · [Metodyka](../../../methodology/evidence-standard.md)
 
@@ -74,6 +74,8 @@ W Run 3 pomyślna kontrola i otwarcie/zamknięcie zachowanego artefaktu wystąpi
 
 ### Porównanie przebiegów
 
+![Zakres udokumentowanych obserwacji w Run 1, Run 2 i Run 3](../figures/run-comparison.svg)
+
 | Obserwacja | Run 1 | Run 2 | Run 3 |
 | --- | --- | --- | --- |
 | Zdarzenia lokalnej archiwizacji | Tak | Tak | Tak |
@@ -96,6 +98,8 @@ W Run 3 pomyślna kontrola i otwarcie/zamknięcie zachowanego artefaktu wystąpi
 
 ### Znaczniki syntetyczne (Run 3)
 
+![Odnaleziono sześć z sześciu dokumentów, zero z pozostałych dziesięciu znaczników](../figures/canary-results.svg)
+
 | Typ | Przygotowano | Odnaleziono |
 | --- | ---: | ---: |
 | Dokumenty tekstowe | 6 | 6 |
@@ -108,6 +112,8 @@ W Run 3 pomyślna kontrola i otwarcie/zamknięcie zachowanego artefaktu wystąpi
 Wynik 6/16 to liczba logicznych znaczników odnalezionych w zabezpieczonym zestawie, a nie wskaźnik skuteczności kradzieży danych. Dziewięć markerów obiektów aplikacyjnych nie wystąpiło w analizowanym zestawie; dziesiąty brak dotyczy obrazu. Nieodnalezienie markera Notes nie przeczy niezależnie potwierdzonej kopii plików bazy. Audyt nie odpytywał struktury baz aplikacyjnych. Dla obrazu zachowano identyfikator w manifeście, lecz nie odnaleziono pliku w przeszukanych kopiach. Nie jest to dowód braku dostępu do konkretnego obiektu.
 
 ### Zachowane archiwum
+
+![61 ścieżek w ZIP: 38 zgodnych plików, 2 różnice metadanych, 21 AppleDouble](../figures/archive-comparison.svg)
 
 Końcowy ZIP Run 3: **289 526 B**, CRC PASS, 61 unikalnych ścieżek. Po normalizacji katalogu głównego 40 ścieżek odpowiadało zabezpieczonemu katalogowi roboczemu; 38 plików było identycznych bajtowo, dwa różniły się zawartością metadanych Finder (.DS_Store). Pozostałe 21 pozycji to metadane AppleDouble. Prawdopodobnym wyjaśnieniem różnic są zapisy Findera. Nie zachowano oddzielnych wersji wcześniejszych ZIP. (E20–E24)
 
@@ -151,6 +157,8 @@ Poniższe mapowanie jest interpretacją defensywną, nie dodatkowym dowodem ani 
 Zewnętrzny kontekst, zalecenia ochronne i dokumentację platformy zestawiono w [bibliografii](references.md). Nie przypisujemy badanego pliku do kampanii opisywanej przez Microsoft wyłącznie na podstawie podobieństwa technik.
 
 ## 8. Integralność, ograniczenia i atrybucja
+
+![Kontrola manifestów: 41/42, 43/43, 44/44 i 90/90](../figures/integrity.svg)
 
 Run 1: 41/42 zgodnych pozycji manifestu (brak kopii Stage 3). Run 2: 43/43 pozycji wewnętrznego manifestu; M2 obejmuje 373 ścieżki szerszej kopii. Run 3: 44/44 pozycji monitoringu oraz 90/90 całego zestawu według audytu; 40 plików katalogu roboczego, 4 168 960 B. Zgodność hashy potwierdza integralność kopii w zakresie sprawdzenia, nie kompletność monitoringu. (E27)
 

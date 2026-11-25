@@ -1,5 +1,9 @@
 # Historia zmian
 
+## DB-2026-001 — 0.9.2 (25 listopada 2026)
+
+Dodano identyfikację wizualną DAYBREAK RESEARCH, trzy warianty znaku i banera SVG, cztery diagramy wyników oraz indeks ilustracji. Zaktualizowano README i osadzono diagramy w raporcie, bez zmiany wartości dowodowych i wskaźników.
+
 ## DB-2026-001 — 0.9.1 (25 listopada 2026)
 
 Uzupełniono wyniki statyczne i śledcze, ograniczenia normalizacji czasu, porównanie przebiegów, kontekst uwierzytelnienia, stan po wykonaniu i raportowane identyfikatory integralności. Dodano bibliografię zewnętrzną, mapowanie czterech technik ATT&CK oraz opis zakresu IOC. Sprawdzono zgodność 17 rekordów CSV/JSON. Nie ponawiano analizy surowych dowodów.

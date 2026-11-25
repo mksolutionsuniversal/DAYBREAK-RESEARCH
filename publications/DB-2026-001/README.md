@@ -1,5 +1,7 @@
 # DB-2026-001
 
+![DAYBREAK RESEARCH](../../assets/brand/logo.svg)
+
 ## ClickFix na macOS: zbieranie danych zaczyna się przed podaniem hasła
 
 Analiza statyczna, dynamiczna i informatyka śledcza wieloetapowego infostealera.
@@ -8,8 +10,9 @@ Analiza statyczna, dynamiczna i informatyka śledcza wieloetapowego infostealera
 **Wydawca:** MK Universal Solutions Ltd  
 **Okres badania:** 18–21 listopada 2026; porównanie z incydentem 9 listopada  
 **Język:** polski  
-**Status:** wersja do recenzji publikacyjnej (0.9.1)
+**Status:** wersja do recenzji publikacyjnej (0.9.2)
 
+- [Diagramy wyników](figures/README.md)
 - [Raport techniczny](pl/report.md)
 - [Matryca ustaleń i indeks źródeł](evidence/README.md)
 - [Bibliografia i mapowanie źródeł](pl/references.md)

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+<title id="title">DAYBREAK — znak</title><desc id="desc">Wschodzące słońce w kolorze bursztynowym na ciemnym tle.</desc>
+<rect width="160" height="160" rx="20" fill="#0B1220"/>
+<g transform="translate(18 17) scale(1)" fill="none" stroke="#F4AC44" stroke-linecap="round"><path d="M18 73 A44 44 0 0 1 106 73" stroke-width="5"/><path d="M5 80H119 M22 91H102 M38 102H86" stroke-width="3"/><path d="M62 12V21 M20 29L27 37 M104 29L97 37 M5 53L15 57 M119 53L109 57" stroke-width="3.5"/></g>
+</svg>
