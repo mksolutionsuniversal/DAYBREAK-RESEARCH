@@ -1,0 +1,160 @@
+{
+  "report": "DB-2026-001",
+  "version": "0.9.0",
+  "note": "Wskaźniki historyczne i defangowane. Okno badawcze nie oznacza first_seen/last_seen. Status dotyczy opisanej roli lub obserwacji, nie atrybucji.",
+  "indicators": [
+    {
+      "type": "sha256",
+      "value": "2d18eca4f006da4b32695bb84da47372bcb21c2bd744ea00c6e83c93edb9ff14",
+      "research_window": "2026-11-19/21",
+      "scope": "campaign",
+      "role": "Stage 1",
+      "confidence": "CONFIRMED",
+      "source": "S12"
+    },
+    {
+      "type": "sha256",
+      "value": "df0013d01242806e1d616c6e8228f7192a05942bc528d3cebe45f95f43ecc9aa",
+      "research_window": "2026-11-19/21",
+      "scope": "campaign",
+      "role": "Odzyskany Stage 2",
+      "confidence": "CONFIRMED",
+      "source": "S12"
+    },
+    {
+      "type": "sha256",
+      "value": "4d5fdf61ae71cb40a5e786f9a0b6021d3faa877b3300e0bd7b8d15c0f6f0e2c7",
+      "research_window": "2026-11-20/21",
+      "scope": "campaign",
+      "role": "Stage 3 Mach-O",
+      "confidence": "CONFIRMED",
+      "source": "S3;M2;M3"
+    },
+    {
+      "type": "sha256",
+      "value": "8e5b08d937f2134019c904a65f7fba606f366a98febe65e4a96cf521206c96ed",
+      "research_window": "2026-11-09",
+      "scope": "historical",
+      "role": "Moduł Python",
+      "confidence": "CONFIRMED",
+      "source": "S12;H2"
+    },
+    {
+      "type": "domain",
+      "value": "meadow-facet[.]com",
+      "research_window": "2026-11-19/20",
+      "scope": "campaign",
+      "role": "Pozyskanie Stage 1 i 3",
+      "confidence": "CONFIRMED",
+      "source": "S12;S3"
+    },
+    {
+      "type": "domain",
+      "value": "flint18[.]com",
+      "research_window": "2026-11-18/21",
+      "scope": "campaign",
+      "role": "Cel statyczny Stage 2",
+      "confidence": "CONFIRMED",
+      "source": "S12"
+    },
+    {
+      "type": "ipv4",
+      "value": "206[.]189[.]100[.]44",
+      "research_window": "2026-11-21",
+      "scope": "campaign",
+      "role": "Cel prób połączenia Run 1 i 2",
+      "confidence": "CONFIRMED",
+      "source": "S3;R1;R2"
+    },
+    {
+      "type": "domain",
+      "value": "mostbeat12[.]com",
+      "research_window": "2026-11-21",
+      "scope": "campaign",
+      "role": "Cel próby HTTPS Run 2",
+      "confidence": "CONFIRMED",
+      "source": "S3;R2"
+    },
+    {
+      "type": "domain",
+      "value": "stitch15[.]com",
+      "research_window": "2026-11-18/21",
+      "scope": "campaign",
+      "role": "Wartość statyczna; rola UNKNOWN",
+      "confidence": "CONFIRMED",
+      "source": "S3"
+    },
+    {
+      "type": "domain",
+      "value": "coral-stratos[.]com",
+      "research_window": "2026-11-18/21",
+      "scope": "campaign",
+      "role": "Wartość statyczna; rola UNKNOWN",
+      "confidence": "CONFIRMED",
+      "source": "S3"
+    },
+    {
+      "type": "domain",
+      "value": "fileosmanthusbyte[.]com",
+      "research_window": "2026-11-18/20",
+      "scope": "campaign",
+      "role": "Obserwacja kampanii; powiązanie niepotwierdzone",
+      "confidence": "PROBABLE",
+      "source": "N"
+    },
+    {
+      "type": "domain",
+      "value": "filekapoknode[.]com",
+      "research_window": "2026-11-18/20",
+      "scope": "campaign",
+      "role": "Obserwacja kampanii; powiązanie niepotwierdzone",
+      "confidence": "PROBABLE",
+      "source": "N"
+    },
+    {
+      "type": "domain",
+      "value": "fileodincloud[.]com",
+      "research_window": "2026-11-18/20",
+      "scope": "campaign",
+      "role": "Obserwacja kampanii; powiązanie niepotwierdzone",
+      "confidence": "PROBABLE",
+      "source": "N"
+    },
+    {
+      "type": "domain",
+      "value": "delta-35[.]com",
+      "research_window": "2026-11-18/20",
+      "scope": "campaign",
+      "role": "Obserwacja kampanii; powiązanie niepotwierdzone",
+      "confidence": "PROBABLE",
+      "source": "N"
+    },
+    {
+      "type": "domain",
+      "value": "havenleaf3[.]com",
+      "research_window": "2026-11-18/20",
+      "scope": "campaign",
+      "role": "Obserwacja kampanii; powiązanie niepotwierdzone",
+      "confidence": "PROBABLE",
+      "source": "N"
+    },
+    {
+      "type": "domain",
+      "value": "lubimfape[.]com",
+      "research_window": "2026-11-09",
+      "scope": "historical",
+      "role": "Cel statyczny historycznego kodu; odbiór UNKNOWN",
+      "confidence": "CONFIRMED",
+      "source": "H2;S12"
+    },
+    {
+      "type": "domain",
+      "value": "wexalon[.]online",
+      "research_window": "2026-11-08/09",
+      "scope": "historical",
+      "role": "Cel przekierowań; związek z ClickFix UNKNOWN",
+      "confidence": "CONFIRMED",
+      "source": "H1a;S12"
+    }
+  ]
+}
