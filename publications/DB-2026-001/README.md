@@ -10,11 +10,12 @@ Analiza statyczna, dynamiczna i informatyka śledcza wieloetapowego infostealera
 **Autor:** Michał Kurzdym  
 **Wydawca:** MK Universal Solutions Ltd  
 **Okres badania:** 18–21 listopada 2026; porównanie z incydentem 9 listopada  
-**Język:** polski  
+**Język:** polski · [English edition](en/README.md)  
 **Wydanie:** 1.0.0 · 25 listopada 2026  
 **Licencja dokumentacji:** [CC BY 4.0](../../LICENSE)
 
 - [Diagramy wyników](figures/README.md)
+- [English edition — 1.0.0](en/README.md)
 - [Raport techniczny](pl/report.md)
 - [Matryca ustaleń i indeks źródeł](evidence/README.md)
 - [Bibliografia i mapowanie źródeł](pl/references.md)
