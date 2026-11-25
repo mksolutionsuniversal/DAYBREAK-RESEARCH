@@ -1,2 +1,29 @@
-# DAYBREAK-RESEARCH
-Independent cybersecurity research by MK Universal Solutions Ltd. Malware analysis, reverse engineering, digital forensics, threat intelligence and defensive security research.
+# DAYBREAK RESEARCH
+
+![DAYBREAK RESEARCH — Independent cybersecurity research; Investigate. Understand. Defend.](assets/brand/banner.svg)
+
+[Publikacje](#publikacje) · [Standard badawczy](methodology/evidence-standard.md) · [Identyfikacja wizualna](assets/brand/README.md) · [Zgłaszanie korekt](SECURITY.md)
+
+**Niezależne badania cyberbezpieczeństwa | Independent cybersecurity research**
+
+Projekt badawczy MK Universal Solutions Ltd, poświęcony analizie złośliwego oprogramowania, inżynierii odwrotnej, informatyce śledczej, threat intelligence i ochronie systemów.
+
+## Publikacje
+
+| Identyfikator | Temat | Język |
+| --- | --- | --- |
+| DB-2026-001 | [ClickFix na macOS: zbieranie danych zaczyna się przed podaniem hasła](publications/DB-2026-001/README.md) | PL |
+
+**DB-2026-001** · wydanie 1.0.0 · 25 listopada 2026 · kryptonim DAYBREAK BLUE
+
+[Raport techniczny](publications/DB-2026-001/pl/report.md) · [Matryca dowodowa](publications/DB-2026-001/evidence/README.md) · [IOC](publications/DB-2026-001/indicators/README.md) · [Diagramy](publications/DB-2026-001/figures/README.md)
+
+## Standard badawczy
+
+Rozdzielamy obserwacje statyczne, zdarzenia wykonania, analizę zabezpieczonych artefaktów i hipotezy. Szczegóły: [metodyka](methodology/evidence-standard.md).
+
+Repozytorium zawiera materiały defensywne, nie próbki wykonywalne, poświadczenia ani niezredagowane dane ofiar. Korekty i pytania dotyczące publikacji można zgłaszać zgodnie z [SECURITY.md](SECURITY.md).
+
+Wydawca: **MK Universal Solutions Ltd** · [mkus.co.uk](https://mkus.co.uk)
+
+Dokumentacja badawcza: [CC BY 4.0](LICENSE). Zakres licencji, oznaczenia i cytowanie: [NOTICE.md](NOTICE.md).
