@@ -1,4 +1,10 @@
-# Historia zmian
+# Historia zmian / Changelog
+
+## Bilingual package v1.1.0 — DB-2026-001
+
+Added the first British English edition (1.0.0), translated evidence matrix, methodology, references, defensive indicator descriptions and four result figures. Added bilingual navigation, reporting and rights notices. Polish edition 1.0.0 and its release tag remain unchanged; no new experimental findings or indicator values.
+
+Dodano pierwsze wydanie EN-GB 1.0.0, tłumaczenie matrycy, metodologii, bibliografii, opisów IOC i czterech diagramów. Dodano dwujęzyczną nawigację, zasady zgłoszeń i informacje o prawach. Wydanie PL 1.0.0 i jego tag pozostają niezmienione; bez nowych wyników badań ani zmian wartości IOC.
 
 ## DB-2026-001 — 1.0.0 (25 listopada 2026)
 

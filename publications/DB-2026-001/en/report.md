@@ -4,10 +4,10 @@
 **Author:** Michal Kurzdym  
 **Publisher:** MK Universal Solutions Ltd  
 **Research:** 18–21 November 2026 · all times UTC  
-**English edition:** translation draft for review; based on Polish v1.0.0, 25 November 2026  
+**English edition:** 1.0.0 · bilingual repository package v1.1.0 · based on Polish v1.0.0 (25 November 2026)  
 **Documentation licence:** [CC BY 4.0](../../../LICENSE)
 
-[Original Polish edition](../pl/report.md) · [Evidence matrix (PL)](../evidence/README.md) · [IOC data](../indicators/README.md) · [References (PL)](../pl/references.md) · [Methodology (PL)](../../../methodology/evidence-standard.md)
+[Original Polish edition](../pl/report.md) · [Evidence matrix](evidence.md) · [IOC data](indicators.md) · [References](references.md) · [Methodology](../../../methodology/evidence-standard.en.md)
 
 ## Executive summary
 
@@ -33,7 +33,7 @@ Experiments used a physical Intel MacBook Pro running macOS Big Sur 11.7.11, a d
 
 Time normalisation: in Run 1 the normalised Unified Log was empty; the analyst converted UTC−08:00 timestamps from the raw log. The Run 2 report documents 1,911 normalised UTC records and one truncated final ProcessMonitor record. Recorder control tests do not establish complete observability of all sample activity. (R1, R2, R3, N §22–27)
 
-CONFIRMED, PROBABLE and UNKNOWN have the meanings set out in the [evidence standard (PL)](../../../methodology/evidence-standard.md). Identifiers E01–E28 and source abbreviations are explained in the [annex (PL)](../evidence/README.md). The public report draws on project reports and manifests, not a new examination of binaries or raw telemetry.
+CONFIRMED, PROBABLE and UNKNOWN have the meanings set out in the [evidence standard](../../../methodology/evidence-standard.en.md). Identifiers E01–E28 and source abbreviations are explained in the [annex](evidence.md). The public report draws on project reports and manifests, not a new examination of binaries or raw telemetry.
 
 ## 2. Campaign observations and static analysis
 
@@ -66,17 +66,17 @@ Static analysis and runtime observations are distinct evidential bases. We do no
 | Run 2 | Started 18:04:23; first archive 18:04:28; successful validation 18:09:55; further archiving, clean-up and termination 18:19:24. | No final ZIP for inventory; final process record partially truncated. |
 | Run 3 | Retained Run 2 state; three successful archiving operations, credential artefact and validation observations, final ZIP recovered. | One preserved ZIP; no complete PCAP analysis. |
 
-CONFIRMED: in Runs 1 and 2, collection and archiving began before successful password validation. Credential storage in Run 2 is documented; in Run 3 the artefact was read and a successful check occurred within the same second. Identical hashes of preserved copies and the operator's report of no further dialogue support a PROBABLE assessment of reuse. Direct byte flow was not established. Successful password validation does not automatically establish privilege elevation or decryption of stores. (E11–E19)
+CONFIRMED: in Runs 1 and 2, collection and archiving began before successful password validation. Credential storage in Run 2 is documented; in Run 3 the artefact was read and a successful check occurred within the same second. Identical hashes of preserved copies and the operator's report of no further dialog support a PROBABLE assessment of reuse. Direct byte flow was not established. Successful password validation does not automatically establish privilege elevation or decryption of stores. (E11–E19)
 
 ### Authentication and limits of inference
 
-In Run 2, two account checks failed at 18:08:58; a successful check and writing of the credential artefact were recorded at 18:09:55. The recorder captured the laboratory password in process arguments; neither its value nor its hash is published. AppleEvents/TCC events associated with Finder were recorded from 18:13:44. Attribution of the reported dialogue to a specific procedure remains PROBABLE.
+In Run 2, two account checks failed at 18:08:58; a successful check and writing of the credential artefact were recorded at 18:09:55. The recorder captured the laboratory password in process arguments; neither its value nor its hash is published. AppleEvents/TCC events associated with Finder were recorded from 18:13:44. Attribution of the reported dialog to a specific procedure remains PROBABLE.
 
 In Run 3, a successful check and opening/closing of the preserved artefact occurred at 19:55:28. Matching credential artefact hashes between Runs 2 and 3 establish consistency of the copies, not the flow of the value. The manifest also identifies a working file with identical length and SHA-256 whose path appears in the ZIP. A separate state artefact was written before password validation; its subsequent consumer remains unidentified. (R2, AUTH, POST, R3, M2, M3, AUD; E13–E19)
 
 ### Comparison of runs
 
-The original [run comparison diagram (PL)](../figures/run-comparison.svg) illustrates the documented scope.
+![Evidence coverage in Runs 1, 2 and 3](figures/run-comparison.svg)
 
 | Observation | Run 1 | Run 2 | Run 3 |
 | --- | --- | --- | --- |
@@ -100,7 +100,7 @@ The original [run comparison diagram (PL)](../figures/run-comparison.svg) illust
 
 ### Synthetic markers (Run 3)
 
-[Original marker results diagram (PL)](../figures/canary-results.svg).
+![Six of six documents found; none of the other ten markers found](figures/canary-results.svg)
 
 | Type | Prepared | Found |
 | --- | ---: | ---: |
@@ -115,7 +115,7 @@ The 6/16 result is the number of logical markers found in the preserved set, not
 
 ### Preserved archive
 
-[Original archive comparison diagram (PL)](../figures/archive-comparison.svg).
+![61 ZIP paths: 38 matching files, 2 metadata differences and 21 AppleDouble entries](figures/archive-comparison.svg)
 
 Final Run 3 ZIP: **289,526 B**, CRC PASS, 61 unique paths. After root directory normalisation, 40 paths corresponded to the preserved working tree; 38 files were byte-identical, and two differed in Finder metadata (.DS_Store). The remaining 21 entries were AppleDouble metadata. Finder writes are a probable explanation of the differences. Separate copies of earlier ZIP versions were not preserved. (E20–E24)
 
@@ -138,12 +138,12 @@ The preserved ZIP contained 58,109,740 B and 115 files. Inventory identified 2,3
 ## 7. Defence and incident response
 
 - Correlate ClickFix social engineering with unusual shell activity, execution of a new file, serial access to data stores and local archiving.
-- Detect collection before a password dialogue; consider OSA/AppleEvents telemetry and do not make detection dependent on the presence of an osascript process.
+- Detect collection before a password dialog; consider OSA/AppleEvents telemetry and do not make detection dependent on the presence of an osascript process.
 - Combine endpoint telemetry with DNS, proxy and firewall data. Indicators are historical; an individual domain or filename alone does not establish compromise.
 - Following suspicious execution, isolate the host, preserve relevant evidence, assess possible exposure and use a trusted device to change potentially compromised credentials and revoke relevant sessions and tokens.
 - Keep macOS updated, limit excessive permissions and educate users about fraudulent verification prompts.
 
-[IOC CSV](../indicators/IOC.csv) and [IOC JSON](../indicators/IOC.json) are intended for defensive correlation only.
+[IOC CSV](IOC.csv) and [IOC JSON](IOC.json) are intended for defensive correlation only.
 
 ### MITRE ATT&CK mapping
 
@@ -156,11 +156,11 @@ The following mapping is a defensive interpretation, not additional evidence or 
 | [T1560.001 — Archive via Utility](https://attack.mitre.org/techniques/T1560/001/) | Documented local archiving. |
 | [T1555.001 — Keychain](https://attack.mitre.org/techniques/T1555/001/) | Documented copying of store files; extraction of all protected credentials not confirmed. |
 
-External context, defensive recommendations and platform documentation are collected in the [bibliography (PL)](../pl/references.md). We do not attribute the sample to the campaign described by Microsoft solely on the basis of similar techniques.
+External context, defensive recommendations and platform documentation are collected in the [bibliography](references.md). We do not attribute the sample to the campaign described by Microsoft solely on the basis of similar techniques.
 
 ## 8. Integrity, limitations and attribution
 
-[Original integrity diagram (PL)](../figures/integrity.svg).
+![Manifest checks: 41/42, 43/43, 44/44 and 90/90](figures/integrity.svg)
 
 Run 1: 41/42 matching manifest entries (Stage 3 copy missing). Run 2: 43/43 internal manifest entries; M2 covers 373 paths in the wider copy. Run 3: 44/44 monitoring entries and 90/90 entries of the complete set according to the audit; 40 working directory files, 4,168,960 B. Matching hashes establish copy integrity within the scope of checking, not completeness of monitoring. (E27)
 
@@ -170,8 +170,8 @@ Limitations: one Intel host and one macOS version, arm64 static analysis without
 
 ## 9. Conclusions
 
-Not entering a password does not rule out prior collection of local data. Detection should rely on behavioural correlation independently of the appearance of a dialogue and success of transfer. The experiments do not establish universal sample effectiveness across macOS configurations or delivery of data in a production network.
+Not entering a password does not rule out prior collection of local data. Detection should rely on behavioural correlation independently of the appearance of a dialog and success of transfer. The experiments do not establish universal sample effectiveness across macOS configurations or delivery of data in a production network.
 
 ## Evidence availability
 
-According to the operator, original samples, logs, packet captures, artefacts and manifests remain in a separate secured archive. This publication presents redacted results and does not enable complete independent reproduction. It does not contain active malware, actual credentials or private links. [Evidence annex (PL)](../evidence/README.md).
+According to the operator, original samples, logs, packet captures, artefacts and manifests remain in a separate secured archive. This publication presents redacted results and does not enable complete independent reproduction. It does not contain active malware, actual credentials or private links. [Evidence annex](evidence.md).
