@@ -9,7 +9,11 @@ An accessible educational guide based on [DB-2026-001](../../DB-2026-001/en/repo
 
 ## PDF edition
 
-The signed seven-page PDF is ready for attachment to [International Release v1.1.0](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/tag/v1.1.0). Publication of these metadata does not yet mean the release attachment is available.
+The signed seven-page PDF was published on 26 November 2026 in [International Release v1.1.0](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/tag/v1.1.0).
+
+**[Download the PDF guide](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/download/v1.1.0/DAYBREAK-RESEARCH_DB-2026-001-SA_EN_v1.0.0.pdf)** · [Download the SHA-256 manifest](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/download/v1.1.0/SHA256SUMS-DB-2026-001-SA-EN.txt).
+
+Post-publication check: both attachments' sizes and SHA-256 digests match the prepared files according to the GitHub API.
 
 - Filename: `DAYBREAK-RESEARCH_DB-2026-001-SA_EN_v1.0.0.pdf`
 - Size: 129757 B
