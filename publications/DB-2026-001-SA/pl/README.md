@@ -7,7 +7,11 @@ Poradnik dla osób bez specjalistycznej wiedzy informatycznej, opracowany na pod
 
 ## Wydanie PDF
 
-Podpisany siedmiostronicowy PDF jest przygotowany do dodania jako załącznik do [Release v1.1.0](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/tag/v1.1.0). Metadane w tym katalogu nie oznaczają jeszcze dostępności załącznika.
+Podpisany siedmiostronicowy PDF opublikowano 26 listopada 2026 w [Release v1.1.0](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/tag/v1.1.0).
+
+**[Pobierz poradnik PDF](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/download/v1.1.0/DAYBREAK-RESEARCH_DB-2026-001-SA_PL_v1.0.0.pdf)** · [Pobierz manifest SHA-256](https://github.com/mksolutionsuniversal/DAYBREAK-RESEARCH/releases/download/v1.1.0/SHA256SUMS-DB-2026-001-SA-PL.txt).
+
+Kontrola po publikacji: rozmiary i SHA-256 obu załączników zgodne z przygotowanymi plikami według GitHub API.
 
 - Nazwa: `DAYBREAK-RESEARCH_DB-2026-001-SA_PL_v1.0.0.pdf`
 - Rozmiar: 140359 B
